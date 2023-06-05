@@ -1,0 +1,25 @@
+{
+  "name": "dm-cli",
+  "version": "1.0.0",
+  "description": "create App for users",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "dg-cli": "./index.js"
+  },
+  "author": "TangDM",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "commander": "^7.2.0",
+    "download-git-repo": "^3.0.2",
+    "fs-extra": "^10.1.0",
+    "handlebars": "^4.7.7",
+    "inquirer": "^8.1.1",
+    "log-symbols": "^4.1.0",
+    "ora": "^5.4.1",
+    "shelljs": "^0.8.4"
+  }
+}
